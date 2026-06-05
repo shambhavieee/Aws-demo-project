@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { ClipboardList, MapPin, Clock, User, Filter, Loader2 } from 'lucide-react';
+import { MapPin, Clock, User, Filter, Loader2 } from 'lucide-react';
 import PageWrapper from '../components/Layout/PageWrapper';
 import StatusBadge from '../components/ui/StatusBadge';
 import EmptyState from '../components/ui/EmptyState';
