@@ -28,7 +28,7 @@ COPY --from=builder /app/examduty.db ./examduty.db
 # Expose backend port
 EXPOSE 8080
 
-# Environment variable
+# Environment variables
 ENV PORT=8080
 ENV DB_PATH=/app/examduty.db
 ENV GIN_MODE=release
