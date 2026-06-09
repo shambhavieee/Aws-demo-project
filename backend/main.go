@@ -20,7 +20,7 @@ func main() {
 	// ── Init database ────────────────────────────────────────────────────────── 
 	database.Init(cfg.DBPath)
 
-	// ── Pass JWT secret to handlers ────────────────────────────────────────────
+	// ── Pass JWT secret to handlers ──────────────────────────────────────────── 
 	handlers.SetJWTSecret(cfg.JWTSecret)
 
 	// ── Set up Gin ─────────────────────────────────────────────────────────────
