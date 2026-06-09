@@ -43,7 +43,7 @@ func main() {
 		c.JSON(http.StatusOK, gin.H{"status": "ok", "service": "examduty-backend"})
 	})
 
-	// ── API routes ─────────────────────────────────────────────────────────────
+	// ── API routes ───────────────────────────────────────────────────────────── 
 	api := r.Group("/api")
 
 	// Public — no auth required
